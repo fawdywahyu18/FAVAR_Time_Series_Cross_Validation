@@ -9,8 +9,8 @@ import pandas as pd
 import openpyxl
 from pandas import ExcelWriter
 
-main_wd = 'E:/Kerja/UbuntuFiles'
-backup_wd = 'G:/Backup Fawdy/Kerja/UbuntuFiles'
+main_wd = ''
+backup_wd = ''
 wd = backup_wd
 source_file = wd+'/indeks_harga_konsumen updated 2022-10-05.xlsx'
 wb = openpyxl.load_workbook(source_file)
